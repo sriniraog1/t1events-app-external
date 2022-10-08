@@ -8,7 +8,7 @@ on:
 env:
   DOCKER_ID:  ${{ secrets.DOCKER_HUB_USERNAME1 }}
   RUN_NUMBER: ${{ github.run_number }}
-  IMAGE: external
+  IMAGE: t1external
 
 jobs:
   setup-build-publish:
